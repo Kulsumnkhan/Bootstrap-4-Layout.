@@ -1,0 +1,21 @@
+.plancard{
+    &-title{
+        position: relative;
+        top: -6px;
+        left: 10px;
+
+    }
+}
+
+.faq{
+    .accordion{
+        .card{
+            background-color: transparent;
+            &-header{
+                .btn-link{
+                    color: $color-light;
+                }
+            }
+        }
+    }
+}

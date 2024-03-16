@@ -1,0 +1,39 @@
+.aboutUs{
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+
+    img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.testimonials{
+    .rounded-circle{
+                width: 50% !important;
+                display: inline-block;
+                margin: 0 auto;
+            }
+
+    .owl-theme .owl-nav {
+        position: absolute;
+        left: -40px;
+        top: 40%;
+        /* border: 5px solid red; */
+        width: 115%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p+h5{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:768px){
+    .testimonials .owl-theme .owl-nav{
+        display: none;
+    }
+}

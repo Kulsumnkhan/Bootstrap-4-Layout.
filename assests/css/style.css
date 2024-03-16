@@ -1,0 +1,123 @@
+.z-2 {
+  z-index: 2; }
+
+.main-header .navbar-brand {
+  max-width: 120px; }
+
+.main-header .navbar-nav .nav-item .nav-link {
+  color: #fff; }
+
+.main-header .navbar-nav .nav-item.active .nav-link, .main-header .navbar-nav .nav-item:hover .nav-link, .main-header .navbar-nav .nav-item:focus .nav-link {
+  color: #ffa500;
+  border-bottom: 2px solid #ffa500; }
+
+#showCase .carousel-item {
+  height: 400px; }
+  #showCase .carousel-item > img {
+    height: 100%;
+    object-fit: cover; }
+
+#showCase .carousel-caption {
+  top: 30% !important; }
+  #showCase .carousel-caption p {
+    text-shadow: 7px 5px 6px rgba(0, 0, 0, 0.8); }
+
+.getting-started {
+  background-image: url(../images/lights.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 200px; }
+  .getting-started::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.footer {
+  background-color: #000; }
+
+.video {
+  background-image: url(../images/media.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 200px; }
+  .video::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.gallery-img-link {
+  display: inline-block;
+  width: 100%;
+  height: 300px; }
+  .gallery-img-link > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+@media screen and (max-width: 600px) {
+  .newsletter .form-inline .btn {
+    display: block;
+    width: 100%; } }
+
+.aboutUs {
+  display: inline-block;
+  height: 300px;
+  width: 100%; }
+  .aboutUs img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
+
+.testimonials .rounded-circle {
+  width: 50% !important;
+  display: inline-block;
+  margin: 0 auto; }
+
+.testimonials .owl-theme .owl-nav {
+  position: absolute;
+  left: -40px;
+  top: 40%;
+  /* border: 5px solid red; */
+  width: 115%;
+  display: flex;
+  justify-content: space-between; }
+
+.testimonials p + h5 {
+  text-align: justify; }
+
+@media screen and (max-width: 768px) {
+  .testimonials .owl-theme .owl-nav {
+    display: none; } }
+
+.plancard-title {
+  position: relative;
+  top: -6px;
+  left: 10px; }
+
+.faq .accordion .card {
+  background-color: transparent; }
+  .faq .accordion .card-header .btn-link {
+    color: #fff; }
+
+.img-posts {
+  display: inline-block;
+  width: 100%;
+  height: 300px; }
+  .img-posts img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
